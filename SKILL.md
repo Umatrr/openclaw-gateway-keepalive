@@ -1,8 +1,7 @@
----
+﻿---
 name: openclaw-gateway-keepalive
 description: Node.js powered keep-alive & auto-restart for OpenClaw Gateway on Windows. Solves the PowerShell $PID read-only variable conflict when running under SYSTEM account. Triggered automatically on startup via Windows Scheduled Tasks.
-emoji: 🛡️
-eligible: true
+emoji: 馃洝锔?eligible: true
 disabled: false
 source: github:Umatrr/openclaw-gateway-keepalive
 author: Umatrr (Zhuoran Feng)
@@ -14,7 +13,7 @@ Node.js powered keep-alive & auto-restart solution for OpenClaw Gateway on Windo
 
 ## Problem This Solves
 
-The default PowerShell-based keep-alive script breaks on Windows because `$PID` is a read-only built-in variable in PowerShell. When running under SYSTEM account (via Scheduled Tasks), the restart logic fails completely with the error: "无法覆盖变量 PID" (Cannot overwrite variable PID).
+The default PowerShell-based keep-alive script breaks on Windows because `$PID` is a read-only built-in variable in PowerShell. When running under SYSTEM account (via Scheduled Tasks), the restart logic fails completely with the error: "鏃犳硶瑕嗙洊鍙橀噺 PID" (Cannot overwrite variable PID).
 
 ## What This Does
 
@@ -73,4 +72,5 @@ openclaw gateway restart
 
 ## Credits
 
-Discovered and solved by 小呣 (Feishu) + 马超 (QQ) — 南方科技大学, 2026-05-25
+Discovered and solved by Zhuoran Feng (Umatrr) 鈥?鍗楁柟绉戞妧澶у, 2026-05-25
+
