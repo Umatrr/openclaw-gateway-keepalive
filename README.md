@@ -55,4 +55,5 @@ openclaw gateway restart
 
 ## Credits
 
-Problem discovered and solved by 小呣 (Feishu) + 马超 (QQ) — 南方科技大学.
+Problem discovered and solved by Zhuoran Feng (Umatrr).
+https://github.com/Umatrr/openclaw-gateway-keepalive
